@@ -13,10 +13,8 @@ onDeleteClick(id,e){  //event olan e sona yazılır
     const {deleteuser}= this.props;
     deleteuser(id);
 /*console.log("CLicked");
-console.log(this) //bunu yazdırabilmek için constructer ile onDeleteClick fonksiyonunu bağlamalısın*/
+console.log(this) //bunu yazdırabilmek için constructer ile onDeleteClick fonksiyonunu bağlamalısın selam */ 
 }
-
-
 
 /* onDeleteClick = e=>{  //3.yol //butona bastığında bastığın yerdeki verileri okumak için , bind yapmana gerek kalmaz
     console.log("clicked");

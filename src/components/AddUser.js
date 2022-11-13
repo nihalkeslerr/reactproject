@@ -3,7 +3,7 @@ import React,{Component} from "react";
 class AddUser extends Component{
     state = {
         name: "",
-        email:""
+        email:"" 
     }
     onNameChange(e){
         this.setState({
@@ -30,11 +30,7 @@ class AddUser extends Component{
 
         addUser(newUser);
         e.preventDefault(); //Sayfanın yenilenmesini önler
-
-
-
     }
-
     render(){
         const {name,email}= this.state;
         return(
